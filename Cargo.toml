@@ -28,6 +28,7 @@ tokio-util-0_7 = { package = "tokio-util", version = "0.7", default-features = f
 tokio-util-0_6 = { package = "tokio-util", version = "0.6", default-features = false, features = ["codec"], optional = true }
 bytes = { version = "1", optional = true }
 serde = { version = "1", features = ["derive"], optional = true }
+enum-utils = "0.1.2"
 
 [features]
 tokio-util-0_6 = ["dep:tokio-util-0_6", "codec", "bytes"]
